@@ -46,3 +46,6 @@ Explanation: Bob and George both have a condition that starts with DIAB1.
 
 
 ----------------- Solution
+SELECT *
+    FROM Patients 
+    WHERE conditions Like '% DIAB1%' OR conditions Like 'DIAB1%';
